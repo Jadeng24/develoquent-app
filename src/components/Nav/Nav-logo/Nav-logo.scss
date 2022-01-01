@@ -1,0 +1,20 @@
+.Nav-logo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+	.logo-holder {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: auto;
+	}
+
+	img.logo {
+		max-width: 60px;
+	}
+
+	img.logo-text {
+		max-width: 150px;
+	}
+}
