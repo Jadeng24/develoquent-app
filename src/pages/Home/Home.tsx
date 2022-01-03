@@ -3,7 +3,7 @@ import React from 'react';
 import mountainTrees from './../../assets/mountainTrees.jpg';
 import mountaintops from './../../assets/mountaintops.jpg';
 import mountainStars from './../../assets/mountainStars.jpg';
-import laptopCode1 from './../../assets/laptopCode1.jpg';
+import laptopCode2 from './../../assets/laptopCode2.jpg';
 
 import { ParallaxProvider } from 'react-scroll-parallax';
 import './Home.scss';
@@ -19,8 +19,8 @@ const Home = () => {
 
 			<ParallaxProvider>
 				<ParallaxImage
-					imgSrc={mountainTrees}
-					imgHeight="700px"
+					imgSrc={laptopCode2}
+					imgHeight="850px"
 					opacity={0.5}
 				></ParallaxImage>
 				<div className="side-x-side">
@@ -51,7 +51,7 @@ const Home = () => {
 					maxime adipisci amet laborum. Perspicia
 				</p>
 				<ParallaxImage
-					imgSrc={laptopCode1}
+					imgSrc={mountainStars}
 					imgHeight="500px"
 					opacity={0.5}
 				></ParallaxImage>

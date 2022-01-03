@@ -9,9 +9,11 @@ const Nav = () => {
 	return (
 		<nav>
 			<NavLogo />
-			<Link to="/shop">Shop</Link>
-			<Link to="/about">About</Link>
-			<Link to="/contact">Contact</Link>
+			<div className="nav-links">
+				<Link to="/shop">Shop</Link>
+				<Link to="/about">About</Link>
+				<Link to="/contact">Contact</Link>
+			</div>
 		</nav>
 	);
 };
