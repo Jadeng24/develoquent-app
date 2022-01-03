@@ -1,7 +1,7 @@
 import React from 'react';
 // import introVideo from './../../assets/develoquentIntro.mp4';
 import mountainTrees from './../../assets/mountainTrees.jpg';
-import mountaintops from './../../assets/mountaintops.jpg';
+import mountaintops from './../../assets/mountainTops.jpg';
 import mountainStars from './../../assets/mountainStars.jpg';
 import laptopCode2 from './../../assets/laptopCode2.jpg';
 
