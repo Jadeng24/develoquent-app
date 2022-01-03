@@ -1,0 +1,23 @@
+.Home {
+	#background-video {
+		height: 100%;
+		width: 200%;
+		left: -50%;
+		top: 0;
+		padding: none;
+		position: absolute; /* optional depending on what you want to do in your app */
+	}
+	img.home-main {
+		width: 100%;
+	}
+	.parallax-image {
+		background: url('./../../assets/laptopCode1.jpg') no-repeat center;
+		background-size: cover;
+		background-attachment: fixed;
+		height: 900px;
+	}
+	.side-x-side {
+		display: flex;
+		justify-content: space-evenly;
+	}
+}
