@@ -1,6 +1,6 @@
 import React from 'react';
 // import introVideo from './../../assets/develoquentIntro.mp4';
-import mountainTrees from './../../assets/mountainTrees.jpg';
+// import mountainTrees from './../../assets/mountainTrees.jpg';
 import mountaintops from './../../assets/mountainTops.jpg';
 import mountainStars from './../../assets/mountainStars.jpg';
 import laptopCode2 from './../../assets/laptopCode2.jpg';
@@ -35,21 +35,12 @@ const Home = () => {
 						opacity={0.5}
 					></ParallaxImage>
 				</div>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Maxime mollitia, molestiae quas vel sint commodi repudiandae
-					consequuntur voluptatum laborum numquam blanditiis harum
-					quisquam eius sed odit fugiat iusto fuga praesentium optio,
-					eaque rerum! Provident similique accusantium nemo autem.
-					Veritatis obcaecati tenetur iure eius earum ut molestias
-					architecto voluptate aliquam nihil, eveniet aliquid culpa
-					officia aut! Impedit sit sunt quaerat, odit, tenetur error,
-					harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-					quia. Quo neque error repudiandae fuga? Ipsa laudantium
-					molestias eos sapiente officiis modi at sunt excepturi
-					expedita sint? Sed quibusdam recusandae alias error harum
-					maxime adipisci amet laborum. Perspicia
-				</p>
+				<section className="featured-products">
+					<h2>Featured Products</h2>
+					<div className="featured-product">1</div>
+					<div className="featured-product">2</div>
+					<div className="featured-product">3</div>
+				</section>
 				<ParallaxImage
 					imgSrc={mountainStars}
 					imgHeight="500px"
