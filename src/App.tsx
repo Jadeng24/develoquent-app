@@ -9,6 +9,7 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import './App.scss';
 import Footer from './components/Footer/Footer';
+import Cart from './components/Cart/Cart';
 
 const App = () => (
 	<div className="App">
@@ -21,6 +22,7 @@ const App = () => (
 				<Route path="/about" element={<About />} />
 				<Route path="/contact" element={<Contact />} />
 			</Routes>
+			<Cart />
 			<Footer />
 		</BrowserRouter>
 	</div>
