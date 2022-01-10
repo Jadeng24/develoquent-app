@@ -1,0 +1,17 @@
+.Cart {
+	transition: 0.4s;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0px;
+	min-width: 200px;
+	z-index: 2;
+	background: red;
+	padding: 20px;
+}
+.cart-open {
+	margin-right: 0px;
+}
+.cart-closed {
+	margin-right: -220px;
+}
